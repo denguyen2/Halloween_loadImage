@@ -10,14 +10,14 @@ void setup() {
 
 void draw() 
 {
-  save("YOURNAME.Halloween.png");
+ // save("YOURNAME.Halloween.png");
 }
 
 void mouseDragged()
 {
   //"Carves" the pumpkins
   //blendMode optional, might be problematic with a light or white background
-  blendMode(OVERLAY); 
+ // blendMode(OVERLAY); 
   noStroke();
   fill(255, 200, 25);
   ellipse(mouseX, mouseY, 5, 5);
