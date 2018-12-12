@@ -1,5 +1,5 @@
 //Click and Drag your cursor to "carve" the pumpkins
-
+/* @pjs preload="pumpkins.png"; */
 PImage img;
 
 void setup() {
